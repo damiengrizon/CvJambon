@@ -1,0 +1,58 @@
+@font-face { /*insersion d'une nouvelle police*/
+    font-family: 'cac_champagneregular';
+    src: url('fonts/cac_champagne-webfont.eot');
+    src: url('fonts/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cac_champagne-webfont.woff2') format('woff2'),
+         url('fonts/cac_champagne-webfont.woff') format('woff'),
+         url('fonts/cac_champagne-webfont.ttf') format('truetype'),
+         url('fonts/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+background: url(images/fond_ecran_CV.jpg) fixed no-repeat center, url(images/fond_ecran_CV2.jpg);
+color:white;
+}
+
+.nom
+{
+  color : purple;
+  font-size: 4em;
+  font-family: cac_champagneregular, Arial, sans-serif;
+  border : 3px blue dotted;
+  border-radius: 15px;
+}
+
+
+.introduction
+{
+  color : black;
+  font-size: 2em;
+  text-align: right;
+}
+
+
+
+h2
+{
+  font-size: 2.5em;
+}
+
+p, ul, ol
+{
+  color :black;
+  font-family: cac_champagneregular, Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+a
+{
+box-shadow: 10px 10px 5px red;
+}
+
+
+
