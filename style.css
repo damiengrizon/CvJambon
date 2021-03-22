@@ -13,8 +13,11 @@
 
 body
 {
-background: url(images/fond_ecran_CV.jpg) fixed no-repeat center, url(images/fond_ecran_CV2.jpg);
-color:white;
+  background: url(images/fond_ecran_CV.jpg) fixed no-repeat center, url(images/fond_ecran_CV2.jpg);
+  color:white;
+  max-width: 400px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .nom
